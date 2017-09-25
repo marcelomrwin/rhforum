@@ -6,6 +6,20 @@
 	<artifactId>rhforum</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
+
+<repositories>
+    <repository>
+      <id>restlet</id>
+      <name>restlet</name>
+      <url>http://maven.restlet.com</url>
+    </repository>
+    <repository>
+      <id>gogs-rhp</id>
+      <name>gogs-repo</name>
+      <url>http://nexus.apps.ocp.rhbrlab.com/repository/maven-public/</url>
+    </repository>
+  </repositories>
+
 	<build>
 		<finalName>rhforum</finalName>
 		<plugins>
